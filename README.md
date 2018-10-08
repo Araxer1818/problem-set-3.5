@@ -47,28 +47,28 @@ Create a website about a (school-appropriate) topic that interests you. This mig
 
 More specifically, your website must include and incorporate the following features and elements.
 
-* 4 distinct pages (i.e., `.html` files)
-   - 1 page that gives a brief overview of your website topic (i.e., a homepage, which should be written in your `index.html` file)
-   - 3 pages that discuss separate subtopics in greater detail
-* A navigation bar that allows you to navigate to and from each of the 4 pages
-* A unique and descriptive `<title>` for each of the 4 pages
-* At least 3 of the header tags variations: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
-* At least 7 hyperlinks
-   - At least 4 internal links that use a relative URL: `<a href="/relative/url.html>` or `<a href="#id">`
-   - At least 3 external links that use an absolute URL: `<a href="https://absoluteurl.com">`
-* At least 1 image per page: `<img src="/images/picture.png">`
-   - All images must be stored in a folder named `images` (the use of subfolders within `images` is at your discretion)
-* At least 2 lists
-   - At least 1 ordered list: `<ol>`
-   - At least 1 unordered list: `<ul>`
-* At least 1 horizontal rule: `<hr/>`
-* At least 1 `<table>`
-   - Your `<table`> must include a header (`<thead>`), a body (`<tbody>`), and a footer (`<tfoot>`)
-* A consistent page footer on every page
-   - Your footer must include the copyright symbol and year (i.e., © 2018)
-   - Your footer must include the school (appropriately hyperlinked), and course (i.e., AIT | APSCS)
-   - Your footer must include a contact email (appropriately hyperlinked)
-      * You must not use an actual email (instead, use info@example.com)
+  * 4 distinct pages (i.e., .html files) <!--Done-->
+      * 1 page that gives a brief overview of your website topic (i.e., a homepage, which should be written in your index.html file) <!--Done-->
+      * 3 pages that discuss separate subtopics in greater detail <!--Done-->
+        * A navigation bar that allows you to navigate to and from each of the 4 pages <!--Done-->
+    * A unique and descriptive <title> for each of the 4 pages <!--Done-->
+* At least 3 of the header tags variations: <h1>, <h2>, <h3>, <h4>, <h5>, and <h6> <!--Done-->
+  * At least 7 hyperlinks <!--7/7-->
+    * At least 4 internal links that use a relative URL: <a href="/relative/url.html> or <a href="#id"> <!--4/4--> ???
+    * At least 3 external links that use an absolute URL: <a href="https://absoluteurl.com"> <!--3/3-->
+* At least 1 image per page: <img src="/images/picture.png"> <!--Done-->
+  * All images must be stored in a folder named images (the use of subfolders within images is at your discretion) <!--Done-->
+* At least 2 lists <!--Done-->
+  * At least 1 ordered list: <ol> <!--Done-->
+  * At least 1 unordered list: <ul> <!--Done-->
+* At least 1 horizontal rule: <hr/> <!--Done-->
+  * At least 1 <table> <!--Done-->
+    * Your <table> must include a header (<thead>), a body (<tbody>), and a footer (<tfoot>) <!--Done-->
+* A consistent page footer on every page <!--Done-->
+  * Your footer must include the copyright symbol and year (i.e., © 2018) <!--Done-->
+  * Your footer must include the school (appropriately hyperlinked), and course (i.e., AIT | APSCS) <!--Done-->
+  * Your footer must include a contact email (appropriately hyperlinked) <!--Done-->
+    * You must not use an actual email (instead, use info@example.com) <!--Done-->
 
 To avoid confusion, your directory structure must match the following. If something is followed with a `/`, it is a folder; otherwise, it is a file.
 
