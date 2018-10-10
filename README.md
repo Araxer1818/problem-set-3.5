@@ -54,7 +54,7 @@ More specifically, your website must include and incorporate the following featu
     * A unique and descriptive <title> for each of the 4 pages <!--Done-->
 * At least 3 of the header tags variations: <h1>, <h2>, <h3>, <h4>, <h5>, and <h6> <!--Done-->
   * At least 7 hyperlinks <!--7/7-->
-    * At least 4 internal links that use a relative URL: <a href="/relative/url.html> or <a href="#id"> <!--4/4--> ???
+    * At least 4 internal links that use a relative URL: <a href="/relative/url.html> or <a href="#id"> <!--4/4--> 
     * At least 3 external links that use an absolute URL: <a href="https://absoluteurl.com"> <!--3/3-->
 * At least 1 image per page: <img src="/images/picture.png"> <!--Done-->
   * All images must be stored in a folder named images (the use of subfolders within images is at your discretion) <!--Done-->
