@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+}
+
+.summary_text {
+  font-size: 17px;
+}
+
+.image {
+  display: inline;
+  align-items: center;
+  align-self: center;
+}
