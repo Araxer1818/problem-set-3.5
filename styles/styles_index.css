@@ -1,0 +1,39 @@
+.center {
+  text-align: center;
+}
+
+.summary_text {
+  font-size: 17px;
+}
+
+.image {
+  display: inline;
+  float: right;
+  height: 50%;
+  width: 49.1%;
+  padding: 5px;
+}
+
+.Menu li{
+  font-size: 18px;
+  margin-top: 20px;
+  border-top: -20px;
+	display: table;
+	margin: 0 auto;
+  display: block;
+  float: left;
+}
+
+
+
+.Menu .li :hover {
+  background-color: deepskyblue;
+}
+
+border-bottom: 2.5px solid dodgerblue;
+border-left: 2.5px solid dodgerblue;
+border-right: 2.5px solid dodgerblue;
+
+margin-left: -10px;
+margin-right: -10px;
+background-color: cyan;
