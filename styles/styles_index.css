@@ -5,9 +5,10 @@
 
 .summary_text {
   font-size: 17px;
+  text-align: center;
 }
 
-.image {
+img[src] {
   display: inline;
   float: right;
   height: 50%;
@@ -34,6 +35,7 @@
   border-right: blue solid 5px;
   border-bottom: blue solid 4px;
   padding: 30px;
+  width: 100;
 }
 
 #menu a {
@@ -47,6 +49,11 @@
 
 #menu a:hover {
   background-color: lightcyan;
+  color: black;
+}
+
+#menu a:visited {
+  color: black;
 }
 
 .table {
@@ -61,19 +68,25 @@ body {
 .header {
   font-size: 30px;
   text-decoration: underline;
+  display: inline;
+}
+
+#header {
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 li {
   font-size: 18px;
-  color: orange;
+  display: inline;
 }
 
 .summary_text {
-  font: normal normal 250 20px serif;
+  font: normal normal lighter 20px serif;
 }
 
 footer a:hover {
-  background-color: moccasin;
+  background-color: cyan;
 }
 
 #index {

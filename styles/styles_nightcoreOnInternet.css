@@ -1,18 +1,134 @@
 
-a:hover {
+.center {
+  text-align: center;
+}
+
+footer a:hover {
     background-color: #00ffff;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 40px;
 }
 
 .trends {
   width: 850.57px;
   height: 325px;
+  border-radius: 20px;
+  border: 3px solid red;
+  display: inline;
 }
 
 .thumbnail {
   width: 555.555px;
   height: 312.5px;
+  float: right;
+  border-radius: 25px;
+  border: 6px solid crimson;
+  display: inline;
+  float: right;
 }
 
-#menu th{
+#menu th {
+  background-color: dodgerblue;
+  border-left: blue solid 5px;
+  border-right: blue solid 5px;
+  border-bottom: blue solid 4px;
+  padding: 30px;
+}
+
+#menu a {
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-top: 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#menu a:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+#menu a:visited {
+  color: black;
+}
+
+.table {
+  margin-top: -10px;
+  width: 100%;
+}
+
+#index {
+  padding-left: 122.5px;
+  padding-right: 123.5px;
+}
+
+#origins {
+  padding-left: 117.5px;
+  padding-right: 117.5px;
+}
+
+#internet {
+  padding-left: 68.5px;
+  padding-right: 68.5px;
+}
+
+#versions {
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+body {
+  background-color: pink;
+}
+
+#table {
+  background-color: lightgreen;
+  border: 5px solid blue;
+  margin-top: 5px;
+  width: 100%;
+}
+
+#table th {
+  border: 1px solid blue;
+  color: red;
+}
+
+#table td[align] {
+  border: 1px solid blue;
+  color: red;
+}
+
+#table td {
+  border: 1px solid blue;
+  color: red;
+}
+
+#tablec {
+  width: 100;
+}
+
+#graphc {
   width: 100px;
+}
+
+.question {
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.answer {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.summary_text {
+  display: inline;
+  font: normal normal lighter 20px serif;
 }

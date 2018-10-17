@@ -1,51 +1,7 @@
-#nightcore {
-  display: inline;
-  float: right;
-  height: 20%;
-  width: 49.1%;
-  padding: 5px;
+
+.center {
+  text-align: center;
 }
-
-#nightstep {
-  display: inline;
-  float: left;
-  height: 50%;
-  width: 49.1%;
-  padding: 5px;
-
-}
-
-#switch {
-  display: inline;
-  float: right;
-  height: 50%;
-  width: 49.1%;
-  padding: 5px;
-
-}
-
-#gender {
-  display: inline;
-  float: left;
-  height: 50%;
-  width: 49.1%;
-  padding: 5px;
-
-}
-
-#Daycore {
-  display: inline;
-  float: right;
-  height: 50%;
-  width: 49.1%;
-  padding: 5px;
-
-}
-
-a:hover {
-    background-color: deepskyblue;
-}
-
 /* Images Specified by Widths */
 .px1280 {
   height: 160.3125px;
@@ -67,16 +23,132 @@ a:hover {
   height: 160.3125px;
 }
 
-#menu {
-  margin-top: -10px;
+.title {
+  font-style: normal;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 40px;
 }
 
-#menu th{
+#menu th {
   background-color: dodgerblue;
-  border-color: blue;
+  border-left: blue solid 5px;
+  border-right: blue solid 5px;
+  border-bottom: blue solid 4px;
+  padding: 30px;
+  width: 100;
+}
+
+#menu a {
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-top: 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#menu a:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+#menu a:visited {
+  color: black;
+}
+
+footer a:hover {
+  background-color: orange;
+}
+
+.table {
+  margin-top: -10px;
   width: 100%;
 }
 
-#menu th :hover {
-  background-color: skyblue;
+#index {
+  padding-left: 122.5px;
+  padding-right: 123.5px;
+}
+
+#origins {
+  padding-left: 117.5px;
+  padding-right: 117.5px;
+}
+
+#internet {
+  padding-left: 68.5px;
+  padding-right: 68.5px;
+}
+
+#versions {
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.version {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.right {
+  display: inline;
+  float: right;
+  text-align: right;
+}
+
+#right_text {
+  margin-left: 750px;
+  padding-left: 250px;
+  display: inline;
+  text-align:
+}
+
+.left {
+  padding: -10px;
+}
+
+.pic {
+  position: absolute;
+  top: 440px;
+  left: 6px;
+}
+
+.pic2 {
+  position: absolute;
+  top: 440px;
+  left: 255px;
+}
+
+.pic3 {
+  position: absolute;
+  top: 850px;
+  left: 6px;
+}
+
+.pic4 {
+  position: absolute;
+  top: 850px;
+  left: 297px;
+}
+
+.text {
+  text-align: right;
+  margin-left: 520px;
+  padding-left: -520px;
+}
+
+.text2 {
+  text-align: right;
+  margin-left: 590px;
+  padding-left: -590px;
+}
+
+.image {
+  border-radius: 20px;
+  border: 7.5px solid lightblue;
 }
