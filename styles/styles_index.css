@@ -8,11 +8,20 @@
   text-align: center;
 }
 
-img[src] {
+.image1 {
+  display: inline;
+  float: left;
+  height: 400px;
+  width: 650px;
+  border-radius: 20px;
+  border: 7px solid mediumturquoise;
+}
+
+.image2 {
   display: inline;
   float: right;
-  height: 50%;
-  width: 49.1%;
+  height: 400px;
+  width: 650px;
   border-radius: 20px;
   border: 7px solid mediumturquoise;
 }
@@ -56,6 +65,10 @@ img[src] {
   color: black;
 }
 
+#menu a:active {
+  color: red;
+}
+
 .table {
   margin-top: -10px;
   width: 100%;
@@ -68,7 +81,7 @@ body {
 .header {
   font-size: 30px;
   text-decoration: underline;
-  display: inline;
+  text-align: center;
 }
 
 #header {
@@ -78,7 +91,7 @@ body {
 
 li {
   font-size: 18px;
-  display: inline;
+  text-align: center;
 }
 
 .summary_text {
@@ -115,4 +128,13 @@ footer a:hover {
 
 footer a {
   color: darkorange;
+  display: inline;
+}
+
+div [class="center"] {
+  text-align: center;
+}
+
+.text {
+  text-align: right;
 }

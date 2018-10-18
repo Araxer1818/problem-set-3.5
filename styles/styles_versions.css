@@ -17,14 +17,14 @@
 }
 
 .px1080 {
-  width: 240.46875px;
-  height: 160.3125px;
+  width: 280px;
+  height: 180px;
   display: inline;
 }
 
 .px2560 {
-  width: 256.5px;
-  height: 160.3125px;
+  width: 290px;
+  height: 180px;
   display: inline;
 }
 
@@ -60,6 +60,10 @@
 
 #menu a:visited {
   color: black;
+}
+
+#menu a:active {
+  color: red;
 }
 
 footer a:hover {
@@ -103,7 +107,6 @@ body {
 .right {
   display: inline;
   float: right;
-  text-align: right;
 }
 
 #right_text {
@@ -117,42 +120,6 @@ body {
   display: inline;
 }
 
-.pic {
-  position: absolute;
-  top: 440px;
-  left: 6px;
-}
-
-.pic2 {
-  position: absolute;
-  top: 440px;
-  left: 255px;
-}
-
-.pic3 {
-  position: absolute;
-  top: 825px;
-  left: 6px;
-}
-
-.pic4 {
-  position: absolute;
-  top: 825px;
-  left: 297px;
-}
-
-.text {
-  text-align: right;
-  margin-left: 520px;
-  padding-left: -520px;
-}
-
-.text2 {
-  text-align: right;
-  margin-left: 590px;
-  padding-left: -590px;
-}
-
 .image {
   border-radius: 20px;
   border: 7.5px solid lightblue;
@@ -160,11 +127,6 @@ body {
 
 .desc {
   font: normal normal lighter 18px serif;
-}
-
-.right_head {
-  margin-bottom: -50px;
-  padding-bottom: 50px;
 }
 
 footer a {

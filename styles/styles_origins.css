@@ -14,11 +14,20 @@ footer a[href]:hover {
   font-size: 40px;
 }
 
-.thumbnails {
+.thumbnail1 {
   display: inline;
   float: left;
-  height: 50%;
-  width: 49.1%;
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+  border: 7px solid darkorange;
+}
+
+.thumbnail2 {
+  display: inline;
+  float: right;
+  height: 250px;
+  width: auto;
   border-radius: 20px;
   border: 7px solid darkorange;
 }
@@ -47,6 +56,10 @@ footer a[href]:hover {
 
 #menu a:visited {
   color: black;
+}
+
+#menu a:active {
+  color: red;
 }
 
 .table {
