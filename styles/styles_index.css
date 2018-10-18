@@ -86,7 +86,7 @@ li {
 }
 
 footer a:hover {
-  background-color: cyan;
+  background-color: #00E0FD;
 }
 
 #index {
@@ -111,4 +111,8 @@ footer a:hover {
 
 .caption {
   padding-top: 100px;
+}
+
+footer a {
+  color: darkorange;
 }

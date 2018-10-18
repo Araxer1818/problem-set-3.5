@@ -2,25 +2,30 @@
 .center {
   text-align: center;
 }
+
 /* Images Specified by Widths */
 .px1280 {
   height: 160.3125px;
   width: 285px;
+  display: inline;
 }
 
 .px1760 {
   width: 282.15px;
   height: 160.3125px;
+  display: inline;
 }
 
 .px1080 {
   width: 240.46875px;
   height: 160.3125px;
+  display: inline;
 }
 
 .px2560 {
   width: 256.5px;
   height: 160.3125px;
+  display: inline;
 }
 
 .title {
@@ -58,7 +63,7 @@
 }
 
 footer a:hover {
-  background-color: orange;
+  background-color: #BBFB0F;
 }
 
 .table {
@@ -105,11 +110,11 @@ body {
   margin-left: 750px;
   padding-left: 250px;
   display: inline;
-  text-align:
 }
 
 .left {
   padding: -10px;
+  display: inline;
 }
 
 .pic {
@@ -126,13 +131,13 @@ body {
 
 .pic3 {
   position: absolute;
-  top: 850px;
+  top: 825px;
   left: 6px;
 }
 
 .pic4 {
   position: absolute;
-  top: 850px;
+  top: 825px;
   left: 297px;
 }
 
@@ -151,4 +156,17 @@ body {
 .image {
   border-radius: 20px;
   border: 7.5px solid lightblue;
+}
+
+.desc {
+  font: normal normal lighter 18px serif;
+}
+
+.right_head {
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: darkorange;
 }
