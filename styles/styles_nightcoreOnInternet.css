@@ -1,15 +1,20 @@
+/* Text */
 
 .center {
   text-align: center;
 }
 
-* {
-  color: #FF5500;
+.answer {
+  font-size: 18px;
+  font-weight: lighter;
 }
 
-footer a:hover {
-    background-color: #00ffff;
+.summary_text {
+  display: inline;
+  font: normal normal lighter 20px serif;
 }
+
+/* Headers + Captions */
 
 .title {
   font-style: normal;
@@ -18,39 +23,53 @@ footer a:hover {
   font-size: 40px;
 }
 
-.trends {
-  width: 850.57px;
-  height: 325px;
-  border-radius: 20px;
-  border: 3px solid red;
-  display: inline;
+.question {
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
-.thumbnail {
-  width: 555.555px;
-  height: 312.5px;
-  float: right;
-  border-radius: 25px;
-  border: 6px solid crimson;
-  display: inline;
-  float: right;
+/*Footers */
+
+footer a:hover {
+    background-color: #00ffff;
 }
 
-#menu th {
+footer p {
+  color: black;
+}
+
+footer a {
+  color: darkorange;
+}
+
+/* Navigation Bar */
+
+#menu li {
   background-color: dodgerblue;
-  border-left: blue solid 5px;
-  border-right: blue solid 5px;
   border-bottom: blue solid 4px;
+  border-left: blue solid 4px;
+  border-right: blue solid 4px;
   padding: 30px;
+  padding-left: 70px;
+  margin-left: -50px;
+  padding-right: 110px;
+  text-align: center;
+  display: inline;
+  max-width: 200px;
+  text-align: center;
+  font-size: 14px;
 }
 
 #menu a {
-  margin-left: -100px;
-  margin-right: -100px;
-  padding-top: 30px;
-  margin-top: 30px;
+  padding-top: 60px;
+  margin-top: 60px;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  padding-left: 70px;
+  margin-left: -70px;
+  padding-right: 110px;
+  margin-right: -110px;
 }
 
 #menu a:hover {
@@ -64,11 +83,6 @@ footer a:hover {
 
 #menu a:active {
   color: red;
-}
-
-.table {
-  margin-top: -10px;
-  width: 100%;
 }
 
 #index {
@@ -91,15 +105,41 @@ footer a:hover {
   padding-right: 97px;
 }
 
-body {
-  background-color: aquamarine;
+/* Images */
+
+.trends {
+  width: 850.57px;
+  height: 325px;
+  border-radius: 20px;
+  border: 3px solid red;
+  display: inline;
 }
+
+.thumbnail {
+  width: 555.555px;
+  height: 312.5px;
+  float: right;
+  border-radius: 25px;
+  border: 6px solid crimson;
+  display: inline;
+  float: right;
+}
+
+/* Tables */
 
 #table {
   background-color: lightgreen;
   border: 5px solid blue;
   margin-top: 5px;
   width: 100%;
+}
+
+#tablec {
+  width: 100;
+}
+
+#graphc {
+  width: 100px;
 }
 
 #table th {
@@ -117,34 +157,14 @@ body {
   color: #FF00A6;
 }
 
-#tablec {
-  width: 100;
+/* Etc. */
+
+* {
+  color: #FF5500;
 }
 
-#graphc {
-  width: 100px;
-}
+/* Background Color */
 
-.question {
-  font-size: 25px;
-  text-decoration: underline;
-  font-weight: bolder;
-}
-
-.answer {
-  font-size: 18px;
-  font-weight: lighter;
-}
-
-.summary_text {
-  display: inline;
-  font: normal normal lighter 20px serif;
-}
-
-footer p{
-  color: black;
-}
-
-footer a{
-  color: darkorange;
+body {
+  background-color: aquamarine;
 }

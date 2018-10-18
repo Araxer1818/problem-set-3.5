@@ -1,6 +1,10 @@
-
+/* Texts */
 .center {
   text-align: center;
+}
+
+.desc {
+  font: normal normal lighter 18px serif;
 }
 
 /* Images Specified by Widths */
@@ -35,74 +39,7 @@
   font-size: 40px;
 }
 
-#menu th {
-  background-color: dodgerblue;
-  border-left: blue solid 5px;
-  border-right: blue solid 5px;
-  border-bottom: blue solid 4px;
-  padding: 30px;
-  width: 100;
-}
-
-#menu a {
-  margin-left: -100px;
-  margin-right: -100px;
-  padding-top: 30px;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-}
-
-#menu a:hover {
-  background-color: lightcyan;
-  color: black;
-}
-
-#menu a:visited {
-  color: black;
-}
-
-#menu a:active {
-  color: red;
-}
-
-footer a:hover {
-  background-color: #BBFB0F;
-}
-
-.table {
-  margin-top: -10px;
-  width: 100%;
-}
-
-#index {
-  padding-left: 122.5px;
-  padding-right: 123.5px;
-}
-
-#origins {
-  padding-left: 117.5px;
-  padding-right: 117.5px;
-}
-
-#internet {
-  padding-left: 68.5px;
-  padding-right: 68.5px;
-}
-
-#versions {
-  padding-left: 97px;
-  padding-right: 97px;
-}
-
-body {
-  background-color: lightgreen;
-}
-
-.version {
-  font-size: 30px;
-  text-decoration: underline;
-}
+/* Images */
 
 .right {
   display: inline;
@@ -125,10 +62,85 @@ body {
   border: 7.5px solid lightblue;
 }
 
-.desc {
-  font: normal normal lighter 18px serif;
+/* Navigation Bar */
+
+#menu li {
+  background-color: dodgerblue;
+  border-bottom: blue solid 4px;
+  border-left: blue solid 4px;
+  border-right: blue solid 4px;
+  padding: 30px;
+  padding-left: 70px;
+  margin-left: -50px;
+  padding-right: 110px;
+  text-align: center;
+  display: inline;
+  max-width: 200px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#menu a {
+  padding-top: 60px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  margin-left: -70px;
+  padding-right: 110px;
+  margin-right: -110px;
+}
+
+#menu a:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+#menu a:visited {
+  color: black;
+}
+
+#menu a:active {
+  color: red;
+}
+
+#index {
+  padding-left: 122.5px;
+  padding-right: 123.5px;
+}
+
+#origins {
+  padding-left: 117.5px;
+  padding-right: 117.5px;
+}
+
+#internet {
+  padding-left: 68.5px;
+  padding-right: 68.5px;
+}
+
+#versions {
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+/* Footers + Headers */
+
+footer a:hover {
+  background-color: #BBFB0F;
 }
 
 footer a {
   color: darkorange;
+}
+
+.version {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/* background Colors */
+
+body {
+  background-color: lightgreen;
 }
