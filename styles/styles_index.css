@@ -74,15 +74,13 @@ footer a {
 #menu li {
   background-color: dodgerblue;
   border-bottom: blue solid 4px;
-  border-left: blue solid 4px;
-  border-right: blue solid 4px;
   padding: 30px;
   padding-left: 70px;
   margin-left: -50px;
   padding-right: 110px;
+  margin-left: -60px;
   text-align: center;
   display: inline;
-  max-width: 200px;
   text-align: center;
   font-size: 14px;
 }
@@ -92,10 +90,6 @@ footer a {
   margin-top: 60px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  padding-left: 70px;
-  margin-left: -70px;
-  padding-right: 110px;
-  margin-right: -110px;
 }
 
 #menu a:hover {
