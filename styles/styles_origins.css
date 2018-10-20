@@ -33,16 +33,13 @@
 
 #menu li {
   background-color: dodgerblue;
-  border-bottom: blue solid 4px;
-  border-left: blue solid 4px;
-  border-right: blue solid 4px;
   padding: 30px;
-  padding-left: 70px;
-  margin-left: -50px;
-  padding-right: 110px;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-right: -10px;
   text-align: center;
   display: inline;
-  max-width: 200px;
   text-align: center;
   font-size: 14px;
 }
@@ -52,10 +49,10 @@
   margin-top: 60px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  padding-left: 70px;
-  margin-left: -70px;
-  padding-right: 110px;
-  margin-right: -110px;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-right: -10px;
 }
 
 #menu a:hover {
@@ -69,26 +66,6 @@
 
 #menu a:active {
   color: red;
-}
-
-#index {
-  padding-left: auto;
-  padding-right: auto;
-}
-
-#origins {
-  padding-left: auto;
-  padding-right: auto;
-}
-
-#internet {
-  padding-left: auto;
-  padding-right: auto;
-}
-
-#versions {
-  padding-left: auto;
-  padding-right: auto;
 }
 
 /* Images */
@@ -141,5 +118,5 @@ footer a {
 /* background Color */
 
 body {
-  background-color: lightskyblue;
+  background-image: linear-gradient(dodgerblue 63px, lightskyblue 11px);
 }

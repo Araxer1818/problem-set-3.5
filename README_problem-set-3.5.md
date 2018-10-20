@@ -59,8 +59,8 @@ Modify the website you created for Problem Set 3, and create a new and improved 
 
 More specifically, your website must include and incorporate the following features and elements.
 
-* At least 1 [universal selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors). <!-- 0/1 -->
-* At least 3 different [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). <!-- 0/3 -->
+* At least 1 [universal selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors). <!-- Done -->
+* At least 3 different [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). <!-- Done -->
 
 * A `border` around at least 1 image per page. <!-- Done -->
    - At least 1 of your `border`s must incorporate rounded corners. <!-- Done -->
@@ -68,12 +68,14 @@ More specifically, your website must include and incorporate the following featu
 * At least 1 externally linked CSS file, which contains the vast majority of your styles. <!-- Done -->
    - Your CSS file(s) should be in a folder named `styles`. <!-- Done -->
 * A `font`, `font-size`, `font-style`, `font-weight`, `color`, and `text-decoration` for at least 1 (though not necessarily the same) text element per page. <!-- Done -->
-* Appropriate element spacing using `margin` and/or `padding` (this is understandbly subjective). <!-- Maybe? -->
+* Appropriate element spacing using `margin` and/or `padding` (this is understandbly subjective). <!-- Done
+ -->
 * At least 3 different [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors). <!-- Done -->
 * At least 3 different [combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Combinators). <!-- Done -->
 * At least 3 different [type selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors). <!-- Done -->
 * At least 3 different [ID selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors). <!-- Done -->
 * At least 3 different [attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors). <!-- Done -->
+
 * At least 3 inline styles per page (for one-off styles that typically aren't replicated elsewhere). <!-- Done -->
 * A `background-color` for each page.
    - If you wish, you may incorporate multiple `background-color`s on a single page. <!-- Done -->

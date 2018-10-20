@@ -34,6 +34,10 @@
   text-align: right;
 }
 
+ol {
+  list-style-type: none;
+}
+
 div [class="center"] {
   text-align: center;
 }
@@ -73,12 +77,11 @@ footer a {
 
 #menu li {
   background-color: dodgerblue;
-  border-bottom: blue solid 4px;
   padding: 30px;
-  padding-left: 70px;
-  margin-left: -50px;
-  padding-right: 110px;
-  margin-left: -60px;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-right: -10px;
   text-align: center;
   display: inline;
   text-align: center;
@@ -90,6 +93,10 @@ footer a {
   margin-top: 60px;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-right: -10px;
 }
 
 #menu a:hover {
@@ -105,26 +112,6 @@ footer a {
   color: red;
 }
 
-#index {
-  padding-left: 122.5px;
-  padding-right: 123.5px;
-}
-
-#origins {
-  padding-left: 117.5px;
-  padding-right: 117.5px;
-}
-
-#internet {
-  padding-left: 68.5px;
-  padding-right: 68.5px;
-}
-
-#versions {
-  padding-left: 97px;
-  padding-right: 97px;
-}
-
 li {
   font-size: 18px;
   text-align: center;
@@ -133,5 +120,5 @@ li {
 /* Background Color */
 
 body {
-  background-color: powderblue;
+  background-image: linear-gradient(dodgerblue 63px, powderblue 11px);
 }
